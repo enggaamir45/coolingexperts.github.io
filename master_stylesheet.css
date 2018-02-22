@@ -1,0 +1,238 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.glyphicon{
+	padding:10px;
+	position: relative;
+}
+
+.fa{
+	padding: 10px 4px;
+	color:#191818;
+	cursor: pointer;
+}
+
+.fa:hover {
+	color:#212121;
+}
+
+.display-togg {
+	display: none;
+}
+
+.navbar {
+  	
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+
+	margin-bottom: 0;
+	border-bottom: none;
+	
+}
+
+ .navbar li a, .navbar {
+      color: gray !important;
+  }
+
+  .navbar li:hover {
+	  background-color:#4B4B4B;
+  }
+
+  .navbar-nav li a:hover, .navbar-nav li a:active {
+	  color: white !important;
+  }
+
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+
+.dropdown-menu{
+	padding-top: 0px;
+	padding-bottom: 0px;	
+}
+
+.dropdown-menu li {
+	background-color: lightgray;
+}
+
+  .dropdown-menu li a {
+      color: #000 !important;
+  }
+  .dropdown-menu li a:hover{
+      background-color: #4B4B4B !important;
+  }
+
+
+.logo-image {
+	
+	height: 3em;
+	max-width: 100%;
+	margin-top: -16px;
+}
+
+.section-padd{
+	padding: 20px 0;
+	margin-bottom: 0;
+}
+
+.section-padd2{
+	padding: 10px 0;
+}
+
+.section-margin{
+	margin-bottom: 0px;
+}
+
+.text-customised {
+	font-size: 16px;
+}
+
+.text-customised-2{
+	font-size: 18px; 
+	padding: 0 8px;
+}
+
+.text-customised3 {
+	font-size: 10px;
+}
+
+.text-sm{
+	font-size: 16px;
+}
+
+.text-bg{
+	font-size: 40px;
+}
+
+.text-md{
+	font-size: 24px;
+}
+
+.heading-customised{
+	position: relative;
+	top: 10px;
+}
+
+#about, #contact, #ac_replace, #ac_repair, #ac_install {
+	padding-top: 40px;
+}
+
+.jumbotron h3{
+	margin-top: -8px;
+}
+
+.jumbotron-customised {
+	padding: 0;
+}
+
+.carousel {
+	width: 100%;
+	position: relative;
+}
+
+.carousel-inner > .item > img {
+	width: 100%;
+	height: 360px;
+}
+
+
+.well{
+	background-color:#838383;
+	border: 1px solid gray;
+}
+
+.well-footer{
+	background-color: #838383;
+	border-radius: 0;
+	padding: 20px 0;
+	margin-top: 0px;
+	margin-bottom: -24px;
+}
+
+.well-menu{
+	background-color: #838383;
+	border-radius: 0;
+	padding: 0;
+	margin-top: 0; 
+	margin-bottom: 0px;
+	color: white;
+}
+
+.well-menu > .glyphicon {
+	color: white;
+}
+
+.icon-customised{
+	color: white;
+}
+
+footer {
+	background-color:#838383;
+	padding: 10px 0;
+}
+
+footer .fa {
+	padding: 10px;
+}
+
+
+@media only screen and (min-width:1024px) and (max-width:1600px){
+	
+	
+	body {
+		padding: 60px 0 0;
+	}
+	.display-togg {
+		display: inline-block;
+}
+	
+	.well-menu{
+	padding-left: 10px;
+}
+	
+	.well-menu a{
+		color: white;
+	}
+	
+	.icon-container .fa{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	
+	.icon-container .fa-facebook{
+		margin-left: 40%;
+	}
+	
+	.logo-image {
+	
+	height: 5em;
+	max-width: 100%;
+	margin-top: -16px;
+	margin: auto;
+}
+	
+	.navbar{
+		padding-bottom: 60px;
+	}
+	
+	.dropdown-menu{
+	padding-top: 0px;
+	padding-bottom: 0px;	
+}
+
+.dropdown-menu li a {
+	background-color: lightgray;
+	padding: 8px;
+
+}
+	
+	.dropdown-menu li:active{
+		background-color: lightgrey!important;
+	}
+	
+}
+	
